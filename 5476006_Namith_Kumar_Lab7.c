@@ -12,7 +12,7 @@ int main(void) {
 void bubble_sort(int array[], int n){
   int counter = 0;
   int temp = 0;
-  for(int i = 0; i < n; i++){
+  for(int i = 0; i < n - 1; i++){
     int pass_swaps = 0;
     for(int j = 0; j < n - i - 1; j++){
       if(array[j] > array[j + 1]){
